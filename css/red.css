@@ -1,0 +1,67 @@
+.abs_center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  float:right;
+  font: 11.5px Arial, sans-serif;
+  color:#EFEFEF
+}
+.right{
+  display: block;
+  float:right;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+  display: block;
+  float:left;
+}
+body {
+  background: linear-gradient(to bottom, #FFFFFF 12%,#BBBBBB 70%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#BBBBBB',GradientType=0 ); /* IE6-9 */
+  margin:4px;
+  background-attachment:fixed;
+}
+h1{
+  text-align: center;
+  font:32px Arial,sans-serif;
+}
+.central{
+  text-align: center;
+}
+
+.whitebox{
+  background: #FEFEFE;
+  border: 2px solid #FAFAFA;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  padding:20px;
+  width: 80%;
+  text-align:center;
+}
+.whitebox h2{
+  font: 32px Arial, sans-serif;
+  text-shadow: -1px 2px 4px #CCC;
+  color: #222;
+}
+.whitebox h3{
+  font: 22px Arial, sans-serif;
+  color: #222;
+}
+.whitebox h4{
+  font: 18px Arial, sans-serif;
+  color: #222;
+  margin:10px;
+}
+.whitebox h5{
+  font: 15px Arial, sans-serif;
+  color: #222;
+  margin:8px 0 8px 0;
+}
+.whitebox p{
+  font: 14px Arial, sans-serif;
+  color: #333;
+}
