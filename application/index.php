@@ -1,12 +1,10 @@
 <?php
 
-define ('DS', DIRECTORY_SEPARATOR);
-define ('HOME', dirname(__FILE__));
- 
-ini_set ('display_errors', 1);
+define('DS', DIRECTORY_SEPARATOR);
+define('HOME', dirname(__FILE__));
  
 require_once HOME.DS.'config'.DS.'config.php';
-require_once HOME.DS.'core'.DS.'bootstrapper.php';
+require_once HOME.DS.'core'.DS.'router.php';
  
 function __autoload($class)
 {

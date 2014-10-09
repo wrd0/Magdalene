@@ -1,12 +1,7 @@
 <?php
  
 class HomeController extends Controller
-{
-    public function __construct($model, $action)
-    {
-        parent::__construct($model, $action);        
-    }
-     
+{     
     public function index()
     {
        
@@ -14,7 +9,7 @@ class HomeController extends Controller
         $data['title'] = 'Magdalene MVC';
         
         $this->loadView('partials/head_nav_menu',$data);
-        $this->loadView('main',$data);
+        $this->loadView('home',$data);
         $this->loadView('partials/footer');
     }
 
